@@ -596,6 +596,34 @@
                 user-select: none;
             }
         }
+
+        /* Hosts section */
+        .hosts {
+            margin: clamp(25px, 4vh, 40px) 0 0 0 !important;
+            opacity: 0;
+            transition: opacity 1s ease-in;
+            text-align: center;
+        }
+
+        .hosts.fade-in {
+            opacity: 1;
+        }
+
+        .hosts-label {
+            font-size: clamp(24px, 4.5vw, 40px) !important;
+            color: #ffd6e6;
+            font-style: italic;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(255,182,193,0.6);
+        }
+
+        .hosts-names {
+            font-size: clamp(24px, 4.5vw, 40px) !important;
+            color: #ffe5f1;
+            font-style: italic;
+            text-shadow: 0 0 10px rgba(255,182,193,0.6);
+            line-height: 1.5;
+        }
     </style>
 </head>
 
@@ -634,11 +662,11 @@
 
         <div class="names" id="names">
             <span class="name-text" id="name1"></span>
-            <div class="weds-text">weds</div>
+            <div class="weds-text">and</div>
             <span class="name-text" id="name2"></span>
         </div>
 
-        <div class="subtext fade-element">Two hearts beat as one, our forever has begun</div>
+        <div class="subtext fade-element">❤️ United in Love Bound by Heart ❤️</div>
 
         <div class="ceremony-section fade-element">
             <div class="section-ornament">✨</div>
@@ -647,7 +675,7 @@
         </div>
 
         <div class="detail fade-element"><strong>Date:</strong> 31st January 2026</div>
-        <div class="detail fade-element"><strong>Time:</strong> 6:00 PM onwards</div>
+        <div class="detail fade-element"><strong>Time:</strong> 5:30 PM onwards</div>
 
         <!-- LOCATION WITH ICON + UNDERLINE + MAP LINK -->
         <div class="venue fade-element">
@@ -659,8 +687,18 @@
         </div>
 
         <div class="detail fade-element">
-            We joyfully invite you to witness and bless<br>
-            the beginning of our beautiful journey together.
+            Let's come together to celebrate their union.<br>
+            Join us for a day of love, joy and togetherness.
+        </div>
+
+        <div class="detail fade-element" style="margin-top: 25px;">
+            The wedding to be solemnized on 25th January 2026<br>
+            at Crystal convention center (Muhurtham)
+        </div>
+
+        <div class="hosts fade-element">
+            <div class="hosts-label">With love from:</div>
+            <div class="hosts-names">Meena Prabhakaran and Bharat Prabhakaran</div>
         </div>
     </div>
 
